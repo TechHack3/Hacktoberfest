@@ -14,20 +14,24 @@
 - Fork this repo (button on top)
 - Clone on your local machine
 
-terminal
+Open terminal
 ```
 git clone https://github.com/TechHack3/Hacktoberfest2023.git
 ```
 
 - Navigate to project directory.
-terminal
-```cd Hacktoberfest2023```
+  
+```
+cd Hacktoberfest2023
+```
 
 
 - Create a new Branch
 
 markdown
-```git checkout -b my-new-branch```
+```
+git checkout -b my-new-branch
+```
 
 - Add your Name to `contributors/contributorsList.js`
 markdown
