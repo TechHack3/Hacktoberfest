@@ -7,7 +7,7 @@ P.S. Star ⭐ and Share this repository, if you had fun!! 😍
 
 # 📌 Videos 📽️:
 
-- [Hacktoberfest Intro]([https://www.youtube.com/watch?v=mq_FIHdxmIk](https://youtu.be/K5nzruz1FpA?si=ehf0mrrJ8xsGvxNe))
+- [Hacktoberfest Intro](https://youtu.be/K5nzruz1FpA?si=ehf0mrrJ8xsGvxNe)
 - [How to pull request [Overview]]()
 
 # Contribution Rules 📌:
