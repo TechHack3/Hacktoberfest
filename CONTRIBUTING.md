@@ -15,7 +15,9 @@
 - Clone on your local machine
 
 terminal
-```git clone https://github.com/TechHack3/Hacktoberfest2023.git```
+```
+git clone https://github.com/TechHack3/Hacktoberfest2023.git
+```
 
 - Navigate to project directory.
 terminal
