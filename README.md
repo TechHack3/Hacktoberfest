@@ -12,7 +12,7 @@ P.S. Star ⭐ and Share this repository, if you had fun!! 😍
 - [Merge Conflict/comment](https://youtu.be/zOx5PJTY8CI)
 
 
-# Contribution Rules📚:
+# Contribution Rules 📌:
 
 - Do NOT add any DSA Codes
 - Do NOT remove other content.
@@ -21,9 +21,9 @@ P.S. Star ⭐ and Share this repository, if you had fun!! 😍
 - Try to keep pull requests small to minimize merge conflicts
 
 ## Mandatory Step :
-- You have to star this repository
+- You have to star ⭐ this repository
 
-## Getting Started 🤩🤗:
+## Getting Started 🚀:
 
 - Fork this repo (button on top)
 - Clone on your local machine
