@@ -32,7 +32,7 @@ cd Hacktoberfest2023
 git checkout -b my-new-branch
 ```
 
-- Add your Name to `contributors/contributorsList.js`
+- To Add your File to our repo
 
 ```
 git add .
