@@ -96,7 +96,7 @@ git merge upstream/master
 
 <b>
 <p><img src="https://drive.google.com/uc?export=view&id=1DWP0DCTBIgSIYDtexUYWuf0IEN3vX045" width="400" height="225" style="width: 400px; height: 225px;" alt="tshirt image"></a></p>
-<p><img src="https://drive.google.com/uc?export=view&id=10aFgU14z0V_8gWME85wJpc4GD6oeogCx" alt="tshirt image"></p>
+<p><img src="https://drive.google.com/uc?export=view&id=10aFgU14z0V_8gWME85wJpc4GD6oeogCx" style="width: 300px; height: 350px;" alt="tshirt image"></p>
 </b>
 
 # FAQs (Frequently Asked Questions)
