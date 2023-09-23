@@ -94,7 +94,7 @@ git merge upstream/master
 ## Swags of Hacktoberfest:
 - Many of the candidates get attracted towards hacktoberfest to get swags . So, after 4 successfully merged pull requests for 2023 you will be eligible to get a Hacktoberfest T-shirt and Some stickers on your doorstep.
  
-     <li><B><p><img src="https://drive.google.com/file/d/10aFgU14z0V_8gWME85wJpc4GD6oeogCx/view?usp=sharing" width="400" height="225" style="width: 400px; height: 225px;" alt="tshirt image"></a></p><p><img src="https://miro.medium.com/max/1050/1*jkffr74bq5RsQ_xqDhgqYQ.jpeg" width="400" height="225" style="width: 400px; height: 225px;" alt="stickers image"></p>
+     <li><B><p><img src="https://drive.google.com/drive/u/0/folders/1cq_kZtpV9TeqZOm3oh2-0WrYSWLBHBM_" width="400" height="225" style="width: 400px; height: 225px;" alt="tshirt image"></a></p><p><img src="https://miro.medium.com/max/1050/1*jkffr74bq5RsQ_xqDhgqYQ.jpeg" width="400" height="225" style="width: 400px; height: 225px;" alt="stickers image"></p>
 </b></li>
 
 # FAQs (Frequently Asked Questions)
