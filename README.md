@@ -7,10 +7,8 @@ P.S. Star ⭐ and Share this repository, if you had fun!! 😍
 
 # 📌 Videos 📽️:
 
-- [Hacktoberfest Intro](https://www.youtube.com/watch?v=mq_FIHdxmIk)
-- [How to pull request [Overview]](https://youtu.be/DIj2q02gvKs)
-- [Merge Conflict/comment](https://youtu.be/zOx5PJTY8CI)
-
+- [Hacktoberfest Intro]([https://www.youtube.com/watch?v=mq_FIHdxmIk](https://youtu.be/K5nzruz1FpA?si=ehf0mrrJ8xsGvxNe))
+- [How to pull request [Overview]]()
 
 # Contribution Rules 📌:
 
