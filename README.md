@@ -11,7 +11,7 @@ P.S. Star ⭐ and Share this repository, if you had fun!! 😍
 - [How to pull request [Overview]]()
 
 # Contribution Rules 📌:
-
+- You can make small projects on HTML, CSS, Javascript.
 - Do NOT add any DSA Codes
 - Do NOT remove other content.
 - Styling/code can be pretty, ugly or stupid, big or small as long as it works
