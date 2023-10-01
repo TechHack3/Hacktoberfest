@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.nav {
+  width: 100%;
+  background-color: #fec63d;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.main {
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-input-button {
+  background-color: #fec63d;
+  border: none;
+  width: 12vw;
+  font-size: 1rem;
+  padding: 20px 30px;
+}
+
+.task-input-button:hover {
+  cursor: pointer;
+  background-color: #fbd678;
+}
+
+.tasks-header {
+  color: #fec63d;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #fec63d;
+}
+
+.tasks {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.addTask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.taskArea {
+  width: 20rem;
+  text-align: center;
+  padding: 10px 20px;
+  resize: none;
+  border: none;
+  border: 1px solid black;
+  caret-color: #03c988;
+}
+
+.add-button {
+  background-color: #03c988;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.add-button:hover {
+  cursor: pointer;
+  background-color: #6cd1af;
+}
+
+.addedTasks {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 30px;
+}
+
+.task {
+  width: 20rem;
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px 0;
+  cursor: default;
+}
+
+.task:hover {
+  background-color: #f9f9f9;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.func {
+  width: 25px;
+  cursor: pointer;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: grey;
+  border: 1px solid grey;
+}
