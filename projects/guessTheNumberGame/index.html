@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guess the Number Game</title>
+  </head>
+  <body>
+    <h1>Guess the Number Game</h1>
+    <p>Guess a number between 1 and 100:</p>
+    <input type="number" id="guessInput" />
+    <input type="submit" value="Submit Guess" id="guessSubmit" />
+    <p id="message"></p>
+
+    <script>
+      // Generate a random number between 1 and 100
+      const randomNumber = Math.floor(Math.random() * 100) + 1;
+
+      const guessInput = document.getElementById('guessInput');
+      const guessSubmit = document.getElementById('guessSubmit');
+      const message = document.getElementById('message');
+
+      let attempts = 0;
+
+      guessSubmit.addEventListener('click', checkGuess);
+
+      function checkGuess() {
+        const userGuess = parseInt(guessInput.value);
+        attempts++;
+
+        if (userGuess === randomNumber) {
+          message.textContent = `Congratulations! You guessed the correct number ${randomNumber} in ${attempts} attempts.`;
+          guessInput.disabled = true;
+          guessSubmit.disabled = true;
+        } else if (userGuess < randomNumber) {
+          message.textContent = 'Try a higher number.';
+        } else {
+          message.textContent = 'Try a lower number.';
+        }
+      }
+    </script>
+  </body>
+</html>
