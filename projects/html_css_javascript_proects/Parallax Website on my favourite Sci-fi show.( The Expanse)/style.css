@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.first_section{
+    background-image: url(Images/first.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.first_section .text{
+    padding: 30px;
+    background-color: #313534;
+    color: white;
+    font-size: 30px;
+}
+.second_section{
+    padding: 100px 50px;
+    background-color: lightgrey;
+
+
+
+}
+.second_section h1{
+    text-align: center;
+}
+.third_section{
+    background-image: url(/Images/second.jpg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.fourth_section{
+    padding: 100px 50px;
+    background-color: black;
+
+}
+.fourth_section h1{
+    text-align: center;
+    color: white;
+
+}
+.fourth_section p{
+    color: white;
+
+}
+.fifth_section{
+    background-image: url(Images/third.jpg);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+   
+}
+.fifth_section h1{
+    color: white;
+}
+.sixth_section{
+    padding: 20px 50px;
+    background-color: black;
+
+}
+.sixth_section h1{
+    color: white;
+    text-align: center;
+}
+.sixth_section p{
+    color: white;
+}
+.seventh_section{
+    background-image: url(Images/fourth.jpg);
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.seventh_section h1{
+    background-color: #313534;
+    padding: 30px;
+    color: white;
+}
+
+@media(max-width:700px ){
+    .first_section .text{
+        font-size: 15px;
+    }
+    .second_section h1{
+        font-size: 16px;
+    }
+    .fourth_section h1{
+        font-size: 15px;
+    }
+    .fifth_section h1{
+        font-size: 15px;
+    }
+    .sixth_section h1{
+        font-size: 15px;
+    }
+    .seventh_section h1{
+        font-size: 15px;
+    }
+}

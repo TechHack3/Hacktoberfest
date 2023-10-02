@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style1.css"> -->
+    <title>Job Application Form</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <h1>Job Application <span>(Web)</span></h1>
+        <form action="#">
+            <div class="form_container form_parent">
+                <div class="form_action">
+                    <label for="first">First Name</label>
+                    <input type="text" required id="first">
+                </div>
+                <div class="form_action">
+                    <label for="last"> Last Name</label>
+                    <input type="text" required id="last">
+                </div>
+                <div class="form_action">
+                    <label for="Email">Email</label>
+                    <input type="email" required id="Email">
+                </div>
+                <div class="form_action">
+                    <label for="job_role">Job Role</label>
+                    <select name="#" required id="job_role">
+                        <option value="none">Select Job Role</option>
+                        <option value="frontEnd">FrontEnd Development</option>
+                        <option value="Backend">BackEnd Development</option>
+                        <option value="FullStack">FullStack Development</option>
+                    </select>
+                </div>
+                <div class="form_action address">
+                    <label for="address">Address</label>
+                    <textarea name="#" required id="address" cols="80" rows="4"></textarea>
+                </div>
+                <div class="form_action">
+                    <label for="city">City</label>
+                    <input type="text" required id="city">
+                </div>
+                <div class="form_action">
+                    <label for="pincode">Pincode</label>
+                    <input type="number" required id="pincode">
+                </div>
+                <div class="form_action">
+                    <label for="date">Start Date</label>
+                    <input value="2023-11-15" required type="date" id="date">
+                </div>
+                <div class="form_action">
+                    <label for="upload">Upload Your CV</label>
+                    <input type="file" required id="upload">
+                </div>
+            </div>
+            <div class="button_container">
+                <button type="button">Apply Now</button>
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
