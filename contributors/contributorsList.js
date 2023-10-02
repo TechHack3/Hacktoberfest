@@ -8,5 +8,10 @@ contributors = [
     id: 2,
     fullname: "sample 2",
     username: "https://github.com/TechHack3",
+  },
+  {
+    id: 3,
+    fullname: 'Amit Kumar Purohit',
+    username: 'https://github.com/amit01dev'
   }
   ];
