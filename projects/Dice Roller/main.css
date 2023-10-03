@@ -2,6 +2,9 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.row {
+    display: flex;
+}
 
 .dice-container {
     display: flex;
@@ -63,7 +66,7 @@ body {
     width: 80px;
 }
 
-.btn-roll-dice {
+.btn-roll-dice, .reset {
     margin-top: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 

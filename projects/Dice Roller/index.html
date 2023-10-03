@@ -13,6 +13,7 @@
 
 <body>
     <div class="dice-container"></div>
+    <div class="row"><h1>Total:&nbsp;</h1><h1 class="total"></h1></body></div>
     <div class="dice-inputs">
         <label for="numberOfDice">Number of Dice</label>
         <input class="numberOfDice" name="numberofDice" />
@@ -27,8 +28,10 @@
             <option value="d12">D12</option>
             <option value="d20">D20</option>
         </select>
+        <label for="modifier">Modifier</label>
+        <input class="modifier" name="modifier" />
     </div>
-    <button type="button" class="btn-roll-dice">Roll Dice</button>
+    <div class="row"><button type="button" class="btn-roll-dice">Roll Dice</button>&nbsp;<button type="button" class="reset">Reset</button></div>
 </body>
 
 </html>
