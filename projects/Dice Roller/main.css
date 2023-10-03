@@ -11,14 +11,48 @@ body {
     width: 80px;
     height: 80px;
     position: relative;
-    margin: 5px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    margin: 10px;
     font-size: 56px;
+    color: black;
     font-weight: bold;
     text-align: center;
     line-height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 4px 4px 10px grey;
 }
+
+
+.d4 {
+    opacity: .7;
+    background-image: url("./src/D4.png");
+  }
+
+  .d6 {
+    opacity: .7;
+    background-image: url("./src/D6.png");
+  }
+
+  .d8 {
+    opacity: .7;
+    background-image: url("./src/D8.png");
+  }
+
+  .d10 {
+    opacity: .7;
+    background-image: url("./src/D10.png");
+  }
+
+  .d12 {
+    opacity: .7;
+    background-image: url("./src/D12.png");
+  }
+
+  .d20 {
+    opacity: .7;
+    background-image: url("./src/D20.png");
+  }
 
 .dice-inputs {
     margin-top: 10px;
