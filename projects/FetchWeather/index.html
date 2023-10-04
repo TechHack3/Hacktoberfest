@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Serif&family=Playfair+Display&family=Poppins:wght@500;600&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h2><i class="fa fa-map-marker"><span id="location"></span></i></h2>
+            <h6 id="weather"></h6>
+            <h4><span id="temp"></span><sup>o</sup>C</h4>
+            <img src="" id="icon">
+            <button type="button" onclick="window.location.reload()" class="refresh"><i
+                    class="fa fa-refresh"></i></button>
+        </div>
+    </div>
+
+
+    <!-- libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        link = "https://api.openweathermap.org/data/2.5/weather?q=bhubaneswar&appid=6beaafd8f099fd14ec118f26eb738033";
+        var request = new XMLHttpRequest();
+        request.open('GET', link, true);
+        request.onload = function () {
+            var obj = JSON.parse(this.response);
+            console.log(obj);
+            document.getElementById('weather').innerHTML = obj.weather[0].description;
+            document.getElementById('location').innerHTML = obj.name;
+            document.getElementById('temp').innerHTML = Math.round(obj.main.temp - 273.15);
+            document.getElementById('icon').src = "https://openweathermap.org/img/w/" + obj.weather[0].icon + ".png";
+        }
+        if (request.status >= 200 && request.status < 400) {
+            var temp = obj.main.temp;
+        } else {
+            console.log("The city data is not available..");
+        }
+        request.send();
+    </script>
+
+</body>
+
+</html>
