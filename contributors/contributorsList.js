@@ -1,12 +1,7 @@
 contributors = [
   {
     id: 1,
-    fullname: "sample 1",
-    username: "https://github.com/TechHack3",
+    fullname: "Moitrayee Dey",
+    username: "https://github.com/moitrayeedey",
   },
-   {
-    id: 2,
-    fullname: "sample 2",
-    username: "https://github.com/TechHack3",
-  }
   ];
