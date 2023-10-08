@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Grocery List</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Grocery List</h1>
+    </div>
+    <div class="top">
+      <label for="groceryInput">Add Item: </label>
+      <input id="groceryInput" placeholder="please enter Item..." required />
+      <label for="quantity">Quantity: </label>
+      <input id="quantity" type:"number" placeholder="please enter quantity..."
+      required/>
+      <button id="submit">Submit</button>
+    </div>
+    <table id="table" class="tables">
+      <tbody id="tbody-element"></tbody>
+    </table>
+    <script src="index.js"></script>
+  </body>
+</html>

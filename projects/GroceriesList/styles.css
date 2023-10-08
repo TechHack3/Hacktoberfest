@@ -1,0 +1,21 @@
+* {
+    Box-sizing: border-box;
+}
+h1 {
+  color:blue;
+}
+
+.top, .title, .tables {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    gap: 5px;
+    align-items: center;
+}
+
+.tables {
+    margin: 40px;
+}
