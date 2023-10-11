@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.first {
+    background-image: url(/Images/coder_image.png);
+    background-size: 100% 100%;
+    min-height: 600px;
+
+}
+
+.hi,
+.name,
+.frontend {
+    color: white;
+    text-align: center;
+}
+
+.hi {
+    font-size: 60px;
+    text-align: center;
+    margin-left: 189px;
+
+}
+
+.name {
+    font-size: 25px;
+    text-align: center;
+}
+
+.frontend {
+    font-size: 50px;
+}
+
+.middle {
+    padding: 50px;
+    background-color: #161718;
+}
+
+.middle p,
+span {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.middle span {
+    font-size: 60px;
+}
+
+.lower {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    padding: 100px 30px;
+    gap: 40px;
+
+}
+
+.lower h3 {
+    margin-bottom: 15px;
+}
+
+.first_card {
+    border-radius: 15px;
+    transition: scale 0.3s ease;
+    box-shadow: -5px 5px 5px 1px rgb(0, 0, 0);
+
+}
+
+.first_card img,
+.second_card img,
+.third_card img {
+    max-width: 100%;
+
+}
+
+.first_card:hover {
+    transform: scale(1.1);
+}
+
+.second_card {
+    border-radius: 15px;
+    transition: scale 0.3s ease;
+    box-shadow: -5px 5px 5px 1px rgb(0, 0, 0);
+
+}
+
+.second_card:hover {
+    transform: scale(1.1);
+}
+
+.third_card {
+    border-radius: 15px;
+    transition: scale 0.3s ease;
+    box-shadow: -5px 5px 5px 1px rgb(0, 0, 0);
+
+}
+
+.third_card:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    display: flex;
+    padding: 40px;
+}
+
+.contact {
+    max-width: 50%;
+    background-color: #515702;
+    color: white;
+    padding: 30px;
+}
+.contact p{
+    margin-bottom: 20px;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+
+.about {
+    max-width: 50%;
+    background-color: #722201;
+    color: white;
+    padding: 30px;
+
+
+
+    
+}
+
