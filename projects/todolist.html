@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To-Do List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        #task,
+        #addTaskBtn {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Simple To-Do List</h1>
+    <div>
+        <input type="text" id="task" placeholder="Enter task">
+        <button id="addTaskBtn">Add Task</button>
+    </div>
+    <ul id="taskList"></ul>
+
+    <script>
+        const taskInput = document.getElementById("task");
+        const addTaskBtn = document.getElementById("addTaskBtn");
+        const taskList = document.getElementById("taskList");
+
+        addTaskBtn.addEventListener("click", function () {
+            const taskText = taskInput.value.trim();
+            if (taskText !== "") {
+                const taskItem = document.createElement("li");
+                taskItem.textContent = taskText;
+                taskList.appendChild(taskItem);
+                taskInput.value = "";
+            }
+        });
+    </script>
+</body>
+
+</html>
