@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: rgb(0, 13, 48);
+}
+
+.hero {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 40px;
+}
+
+nav ul li a {
+  color: aliceblue;
+  font-size: 19px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+nav h1 {
+  color: aliceblue;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+nav button {
+  border: none;
+  outline: none;
+  padding: 7px;
+  background: #ea1538;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+nav button:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+nav ul li a:hover {
+  color: #ea1538;
+  transition: 0.4s;
+}
+
+.im {
+  width: 10%;
+}
+
+.logo {
+  display: flex;
+  width: 40%;
+}
+
+.im img {
+  width: 100%;
+}
+
+.container {
+  min-height: 72vh;
+  background: black;
+  color: aliceblue;
+  display: flex;
+  width: 80%;
+  margin: 23px auto;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url("bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bottom {
+  position: sticky;
+  height: 130px;
+  background-color: black;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#myprogressbar {
+  width: 80vw;
+  cursor: pointer;
+}
+
+.icons {
+  color: aliceblue;
+  margin-top: 15px;
+}
+
+.icons i {
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.songitem {
+  height: 50px;
+  display: flex;
+  background-color: aliceblue;
+  width: 100%;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+}
+
+.songitem img {
+  width: 43px;
+  margin: 0 23px;
+  border-radius: 34px;
+}
+
+.timestamp {
+  margin: 0 23px;
+}
+
+.timestamp i {
+  cursor: pointer;
+  margin: 0 23px;
+}
+
+.songitem-container {
+  margin-top: 70px;
+}
+
+.songinfo {
+  position: absolute;
+  left: 10vw;
+}
+
+#gif {
+  opacity: 0;
+  transition: 0.6s ease-in;
+}
